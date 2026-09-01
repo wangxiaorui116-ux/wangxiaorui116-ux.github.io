@@ -1,13 +1,14 @@
-# 个人主页
+# 王骁睿 · 个人作品集
 
-这是一个可以直接发布到 GitHub Pages 的个人网站框架，当前包含：
+王骁睿（WANGXIAORUI）的个人网站，基于 Next.js 构建并通过 GitHub Pages 发布。
 
-- 首页介绍区域
-- 关于我
-- 项目展示
-- 经历
-- 联系方式
-- 桌面端和手机端自适应布局
+当前内容包括：
+
+- 个人介绍与关注方向
+- NUS SoC 实时人脸与人体关键点分析项目
+- 2026 华数杯微构体导电仿真优化项目
+- 经历与 GitHub 联系方式
+- 桌面端和移动端自适应布局
 
 ## 本地预览
 
@@ -16,8 +17,11 @@ npm install
 npm run dev
 ```
 
-## 修改内容
+## 检查与构建
 
-页面文字和结构位于 `app/page.tsx`，整体样式位于 `app/globals.css`。
+```bash
+npm run lint
+npm test
+```
 
-后续提交到 `main` 分支后，GitHub Actions 会自动构建并更新网站。
+提交到 `main` 分支后，GitHub Actions 会自动构建并更新网站。
